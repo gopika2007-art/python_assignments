@@ -109,8 +109,10 @@ if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
 else:
     print(year, "is not a leap year.")
 
+Celsius=float(input())
+Fahrenheit=(9/5)*Celsius+32
+print(Fahrenheit)
 
-
-
-
-
+def maxOfThree(a,b,c):
+    if(a>b and a>c):
+        print(a)
